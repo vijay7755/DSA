@@ -1,0 +1,17 @@
+
+person = {
+  name: "John",
+  age: 25,
+  address: {
+    city: "LA",
+    state: "California",
+  },
+};
+
+
+
+// Longhand
+console.log(person && person.name);
+
+console.log(person?.address?.city);
+
