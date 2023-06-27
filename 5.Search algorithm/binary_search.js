@@ -1,3 +1,10 @@
+// Write a function called binarySearch which accepts a sorted array and a value 
+// and returns the index at which the value exists. Otherwise, return -1.
+
+// This algorithm should be more efficient than linearSearch
+
+
+
 function binarySearch(arr, value) {
 
     let start = 0

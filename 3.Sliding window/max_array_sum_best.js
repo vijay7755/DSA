@@ -1,3 +1,7 @@
+// Write a function called maxSubarraySum which accepts two parameters - an array of integers and a positive integer.
+
+// This function should return the maximum sum of given integer in a given array.
+
 function maxSubarraySum(arr, num){
     if(arr.length < num ) return false
     let maxSum = 0
