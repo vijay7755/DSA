@@ -4,6 +4,9 @@
 //  Average: O(n^2)
 //  Worst: O(n^2)
 
+// space complexity: 
+// O(1)
+
 // Algorithm
 // Iteration starts with second element in an array.
 // Stores the minimum value as second element and compare it with the previous element

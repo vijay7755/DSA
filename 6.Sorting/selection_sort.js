@@ -6,6 +6,8 @@
 //  Worst: O(n^2)
 // Advantages over bubble sort: in bubble sort we swap over and over whereas in selection sort we swap only one time for one iteration.
 
+// space complexity: 
+// O(1)
 
 // Algorithm
 // Iterate from start to end by comparing the next item in an array to find the next minimum value -> i=0 | i<arr.length | i++

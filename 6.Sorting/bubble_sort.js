@@ -5,6 +5,10 @@
 //  Average: O(n^2)
 //  Worst: O(n^2)
 
+// space complexity: 
+// O(1)
+
+
 // Algorithm
 // Iterate from the last element in a given array -> i = arr.length-1 | i > 0 | i - 1
 // Iterate for 2nd time each element until the length of i -> j = 0 | j <= i | j++
