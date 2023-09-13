@@ -8,6 +8,20 @@
 // then repeating the process witht the next digit (placing the elements in the respective bucket by check the next digit)
 // continue the iteration untill checking all digits from right to left.
 
+/* Radix sort time complexity */
+// time complexity: 
+//  best: O(nk)
+//  Average: O(nk)
+//  Worst: O(nk)
+// time comlexity explanation:
+// n - is the length of the numbers in an array/list
+// k - is the maximum digits length of the number [Computer stores number as (log n)]
+// to conclude the tie complexity is O(n log n)
+
+
+// space complexity: 
+// O(n + k)
+
 /* Helper Methods */
 // getDigit(num, place) - Method to return the digit in num at the given place vlaue
 function getDigit(num, i) {
