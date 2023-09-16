@@ -147,3 +147,19 @@ list.push("everyone")
 list.push("how")
 list.push("you")
 list.push("doing?")
+
+
+// Reverse linked list recursively
+var reverseList = function(node, prev = null) {
+	// End of the list
+    if(!node) {
+        return prev;
+    }
+	
+	// Swappity swappy
+    const next = node.next;
+    node.next = prev;
+	
+	// The node will be next, the prev will be node
+    return reverseList(next, node);
+};
