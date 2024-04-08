@@ -1,7 +1,7 @@
 # Linked List
 
 A data structure that contains a **head**, **tail** and **length** property.
-Similar to array list that contains list of values of any type. But the difference is that the linke list do not have indices.
+Similar to array list that contains list of values of any type. But the difference is that the linked list do not have indices.
 
 Linked list consists of nodes and each node has a value and a pointer to another node or null.
 
