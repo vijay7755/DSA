@@ -32,9 +32,9 @@ The connection between one node and another
 * JSON
 
 # Binary Search Tree
-In Binary search tree, each node can have maximum of only two nodes. (Can be two, on or Zero. Not more than two).
+In Binary search tree, each node can have maximum of only two nodes. (Can be two, one or Zero. Not more than two).
 Every node to the left of parent node will always be less than the parent node
-Every node to the riht of parnet node will always be greater than the paren tnode
+Every node to the right of parnet node will always be greater than the paren tnode
 
 # Big O Notatation
 ## Time Complexity
